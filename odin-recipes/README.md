@@ -2,7 +2,8 @@
 
 ## About
 
-Primitive Introduction Page to this first Project, file created and edited within VSCode.
+Primitive Recipe Page for this page.
+May visit later and add some css.
 
 ## Links
 
