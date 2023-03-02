@@ -1,0 +1,26 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: helvetica, verdana, sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+}
+
+.header-top, .header-bottom, .content-main, .content-quote, .footer-signup, .footer{
+	display: flex;
+}
+
+.header-bottom, .content-main, .content-quote, .footer-signup {
+	flex: 2;
+}
+	
+.header-top, .header-bottom, .footer{
+	background: #1F2937;
+	color: white;
+}
+
