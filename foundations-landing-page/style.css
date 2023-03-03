@@ -1,26 +1,107 @@
 body {
 	padding: 0;
 	margin: 0;
-	font-family: helvetica, verdana, sans-serif;
+	font-family: roboto, helvetica, verdana, sans-serif;
 }
 
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	min-height: 100vh;
 }
 
 .header-top, .header-bottom, .content-main, .content-quote, .footer-signup, .footer{
 	display: flex;
+	padding: 10px 192px 10px 192px;
 }
 
-.header-bottom, .content-main, .content-quote, .footer-signup {
-	flex: 2;
-}
-	
 .header-top, .header-bottom, .footer{
 	background: #1F2937;
 	color: white;
+}
+
+/* -------- HEADER -------- */
+.header-top{
+	min-height: 50px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-top-logo {
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+.header-top-links{
+	font-size: 18px;
+}
+
+.header-top-links ul {
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+
+.header-top-links a {
+	text-decoration: none;
+	color: #E5E7EB;
+}
+
+.header-bottom{
+	flex: 3;
+	align-items: center;
+	min-height: 320px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.header-bottom h1 {
+	margin: 0;
+	font-size: 48px;
+	font-weight: extra-bold;
+	color: #F9FAF8;
+}
+
+.header-bottom p {
+	margin: 0;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.header-bottom-content{
+	flex: 1;
+	margin: 10px;
+}
+
+.header-bottom-placeholder{
+	display: flex;
+	flex: 1;
+	text-align: center;
+	background: #708090;
+	align-self: stretch;
+	align-items: center;
+	justify-content: center;
+}
+
+/* -------- CONTENT -------- */
+.content-main{
+	flex: 3;
+	min-height: 640px;
+}
+
+.content-quote{
+	flex: 3;
+	min-height: 640px;
+	background: #E5E7EB;
+}
+
+/* -------- FOOTER -------- */
+.footer-signup{
+	min-height: 480px;
+	flex: 2;
+}
+
+.footer {
+	min-height: 50px;
 }
 
